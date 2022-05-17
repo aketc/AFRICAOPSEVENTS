@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    
+    <style>
+        body{
+            background-image:url(images/abstract-white-shapes-background_79603-1362.webp);
+            background-size: cover;
+            background-position: center;
+            font-family: ;
+        }
+         h1{
+            align-items: center;
+            margin-left: 560px;
+        }
+        .header img{
+            margin-top: -10px;
+        }
+        .services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 10rem 0;
+}
+
+.services h1 {
+  background-color: #ff8177;
+  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+}
+
+.services__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.services__card {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#131313;
+  background-image: linear-gradient(to right, #13161600 0%, #002fff15 100%);
+  transition: 0.3s ease-in;
+}
+
+.services__card:nth-child(2) {
+    background-image: linear-gradient(to right, #13161600 0%, #002fff15 100%);
+  background: linear-gradient(
+    to right,
+    #b1a9a921,
+    #61636315,
+    #45454600
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.services__card:nth-child(3) {
+  background-image: linear-gradient(
+    -225deg,
+    #5d5b6300 0%,
+    #43107a00 29%,
+    #ff136200 67%,
+    #fff70000 100%
+  );
+}
+
+.services__card h2 {
+  text-align: center;
+}
+
+.services__card p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+  color: #131313;
+}
+
+.services__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.services__card button {
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #242020d3;
+  font-size: 1rem;
+}
+
+.services__card button:hover {
+  cursor: pointer;
+}
+
+.services__card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .services__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+.header img{
+    margin-left: 200px;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <div>
+         <h1>EVENTS</h1>
+
+    <div class="header">
+      <img src="images/mesmerizing-view-silhouette-tree-savanna-plains-during-sunset_181624-18108.webp" alt="events" height="150" width="900">
+       
+    </div>
+
+    <div class="events" id="services">
+        <h1>Upcoming Events</h1>
+        <div class="services__wrapper">
+          <div class="services__card">
+            <h2>Connect Virtual MeetUp</h2>
+            <p>Join our first virtual meeting where we get to connect and know each other...<br><br>Sept 20-25, 2022</p>
+            <div class="services__btn"><button>Register</button></div>
+          </div>
+          <div class="services__card">
+            <h2> Kisumu Innovators Week</h2>
+            <p>Rsvp for the very first Kisumu innovator onsite meetUp<br><br> Venue:Lakehub</p>
+            <div class="services__btn"><button>RSVP</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Investor Virtual Meeting</h2>
+            <p>Register as an Investor or Innovator to get to have conversations towards growth $ productivity<br><br>Oct 1st</p>
+            <div class="services__btn"><button>Register</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Build Kisumu Connect</h2>
+            <p>Join our very first African Kisumu connects, Innovators, Investors, Scouts etc... Dates to be communicated<br><br>Virtual/Physical</p>
+            <div class="services__btn"><button>Register</button></div>
+          </div>
+        </div>
+      </div>
+
+</div>
+</body>
+</html>
