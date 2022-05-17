@@ -11,8 +11,15 @@
             background-image:url(images/abstract-white-shapes-background_79603-1362.webp);
             background-size: cover;
             background-position: center;
-            font-family: ;
+
         }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
          h1{
             align-items: center;
             margin-left: 560px;
@@ -86,7 +93,7 @@
 .services__card p {
   text-align: center;
   margin-top: 24px;
-  font-size: 20px;
+  font-size: 15px;
   color: #131313;
 }
 
@@ -127,9 +134,12 @@
     grid-template-columns: 1fr;
   }
 }
-.header img{
-    margin-left: 200px;
-    border-radius: 10px;
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/beautiful-distant-shot-woman-riding-kayak-middle-lake-during-sunset_181624-3666.webp");
+  min-height: 75%;
 }
     </style>
 </head>
@@ -137,10 +147,17 @@
     <div>
          <h1>EVENTS</h1>
 
-    <div class="header">
-      <img src="images/mesmerizing-view-silhouette-tree-savanna-plains-during-sunset_181624-18108.webp" alt="events" height="150" width="900">
-       
-    </div>
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <!-- <span class="w3-tag">Our events</span> -->
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black" style="font-size:100px">the<br>Africaops</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <!-- <span class="w3-text-white">Lakehub,Kisumu, 2022</span> -->
+  </div>
+</header>
 
     <div class="events" id="services">
         <h1>Upcoming Events</h1>
